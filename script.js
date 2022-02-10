@@ -41,3 +41,5 @@ let lastWatchedMovie = prompt("Один из последних просмотр
 personalMovieDB.movies[lastWatchedMovie] = movieRating;
 
 console.log(personalMovieDB);
+
+console.log(personalMovieDB.movies);
